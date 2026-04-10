@@ -118,7 +118,7 @@ For a full list of available arguments, refer to [`train.py`](train.py). We use 
 
 # 💽 OWM
 
-Preprocessed videos, metadata, and tracker annotations obtained using [TapNext](https://github.com/google-deepmind/tapnet) for the OWM benchmark are [available on huggingface](https://huggingface.co/datasets/CompVis/owm-95). You can easily run the OWM benchmark by running
+Preprocessed videos, metadata, and tracker annotations obtained using [TapNext](https://github.com/google-deepmind/tapnet) for the OWM benchmark are [available on huggingface](https://huggingface.co/datasets/CompVis/owm-95). To download all evaluation data including OWM, Physion, and Physics-IQ, run `scripts/myriad_eval/download_datasets.sh` (install `gsutil` with `pip install gsutil` if you do not already have it). You can easily run the OWM benchmark by running
 ```shell
 python -m scripts.myriad_eval.openset_prediction --data-root path/to/data  --ckpt-path path/to/checkpoint --dataset-name [owm | physion | physics-iq]
 ```
