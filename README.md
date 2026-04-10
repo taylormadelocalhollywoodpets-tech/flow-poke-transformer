@@ -120,10 +120,10 @@ For a full list of available arguments, refer to [`train.py`](train.py). We use 
 
 Preprocessed videos, metadata, and tracker annotations obtained using [TapNext](https://github.com/google-deepmind/tapnet) for the OWM benchmark are [available on huggingface](https://huggingface.co/datasets/CompVis/owm-95). You can easily run the OWM benchmark by running
 ```shell
-python -m scripts.eval.myriad_eval.owm --checkpoint-path path/to/checkpoint
+python -m scripts.eval.myriad_eval.openset_prediction --data-root path/to/data  --ckpt-path path/to/checkpoint --dataset-name [owm | physion | physics-iq]
 ```
 
-The metadata in `annotations.json` contains additional information further describing the observed motion. For example we annotate the type of motion (e.g. rigid- or non-rigid-body physics), the number of actors with free will, and whether physical interactions between object occur. The annotations further include `polygons` that describe the area of the image where actors can move if motion is constrained.
+The metadata in `annotations.json` contains additional information further describing the observed motion. For example we annotate the type of motion (e.g. rigid- or non-rigid-body physics), the number of actors with free will, and whether physical interactions between object occur. The annotations further include `polygons` that describe the area of the image where actors cannot move if motion is constrained.
 
 **Further Evaluation from MYRIAD**
 
