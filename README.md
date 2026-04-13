@@ -6,6 +6,7 @@
 [![Paper](https://img.shields.io/badge/arXiv-paper-b31b1b)](https://arxiv.org/abs/2604.09527)
 [![Weights](https://img.shields.io/badge/HuggingFace-Weights-orange)](https://huggingface.co/CompVis/myriad)
 [![OWM-95](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/CompVis/owm-95)
+[![MYRIAD-Physics Benchmark](https://img.shields.io/badge/Related-MYRIAD--physics-green)](https://huggingface.co/datasets/CompVis/myriad-physics)
 
 <div align="center">
   <a href="https://stefan-baumann.eu/" target="_blank">Stefan A. Baumann</a><sup>*,1,2</sup> · 
