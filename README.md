@@ -3,7 +3,7 @@
 <h2 align="center">Envisioning the Future, One Step at a Time</h2>
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://compvis.github.io/myriad)
-[![Paper](https://img.shields.io/badge/arXiv-paper-b31b1b)](_blank)
+[![Paper](https://img.shields.io/badge/arXiv-paper-b31b1b)](https://arxiv.org/abs/2604.09527)
 [![Weights](https://img.shields.io/badge/HuggingFace-Weights-orange)](https://huggingface.co/CompVis/myriad)
 [![OWM-95](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/CompVis/owm-95)
 
