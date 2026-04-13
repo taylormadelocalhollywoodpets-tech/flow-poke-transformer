@@ -10,7 +10,7 @@
 <div align="center">
   <a href="https://stefan-baumann.eu/" target="_blank">Stefan A. Baumann</a><sup>*,1,2</sup> · 
   <a href="" target="_blank">Jannik Wiese</a><sup>*,1,2</sup> · 
-  <a href="" target="_blank">Tommaso Martorella</a><sup>1,2</sup> · 
+  <a href="https://scholar.google.com/citations?user=3HCXNX4AAAAJ" target="_blank">Tommaso Martorella</a><sup>1,2</sup> · 
   <a href="" target="_blank">Mahdi M. Kalayeh</a><sup>3</sup> · 
   <a href="https://ommer-lab.com/people/ommer/" target="_blank">Björn Ommer</a><sup>1,2</sup>
 </div>
