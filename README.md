@@ -154,7 +154,7 @@ If you find our model or code useful, please cite our papers:
 ```bibtex
 @inproceedings{baumann2026envisioning,
   title={Envisioning the Future, One Step at a Time},
-  author={Baumann, Stefan Andreas and Wiese, Jannik and Martorella, Tommaso and Kalayeh, Mahdi M. and Ommer, Bjorn},
+  author={Stefan Andreas Baumann and Jannik Wiese and Tommaso Martorella and Mahdi M. Kalayeh and Bj{\"o}rn Ommer},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2026}
 }
