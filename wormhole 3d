@@ -1,0 +1,35 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+# Parameters
+r0 = 1.0   # throat radius
+r = np.linspace(r0, 10, 200)
+theta = np.linspace(0, 2*np.pi, 200)
+
+R, Theta = np.meshgrid(r, theta)
+
+# Wormhole embedding function:
+# z(r) = ± r0 * arccosh(r/r0)
+Z = r0 * np.arccosh(R / r0)
+
+# Convert to Cartesian
+X = R * np.cos(Theta)
+Y = R * np.sin(Theta)
+
+# Plot
+fig = plt.figure(figsize=(10, 7))
+ax = fig.add_subplot(111, projection='3d')
+
+# Upper surface
+ax.plot_surface(X, Y, Z, cmap='viridis', alpha=0.8)
+
+# Lower surface
+ax.plot_surface(X, Y, -Z, cmap='viridis', alpha=0.8)
+
+ax.set_title("Wormhole Mapping")
+ax.set_xlabel("X")
+ax.set_ylabel("Y")
+ax.set_zlabel("Z")
+
+plt.show()
